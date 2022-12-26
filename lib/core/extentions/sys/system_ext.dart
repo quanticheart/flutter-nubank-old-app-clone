@@ -45,4 +45,9 @@ extension SystemPlatform on BuildContext {
     String version = packageInfo.version;
     String buildNumber = packageInfo.buildNumber;
   }
+
+  verifyDebug() {
+    if (kDebugMode) {
+    } else {}
+  }
 }
